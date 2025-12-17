@@ -1,0 +1,35 @@
+.exp1{
+    margin-right: 10px;
+    
+}
+#exp1{
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    margin-top: 0px;
+}
+.exp2{
+    font-weight: bold;
+      
+}
+#exp2{
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    margin-top: 0px;
+}
+.main{
+    margin: -1;
+    padding: 0;
+    display: list-item;
+}
+.pro{
+    margin-top: 5px;
+}
+.team{
+    margin-top:5px;
+}
+.php{
+    margin-top: 5px;
+}
+.data{
+    margin-top: 5px;
+}
