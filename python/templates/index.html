@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    body{
+        background-color: aqua;
+    }
+    .error{
+        color: #FF0000;
+    }
+  </style>
+</head>
+<body>
+<h1 style="text-align: center;"><u>Employee Data Form</u></h1>
+<form action="/submit" method="POST">
+<p>Enter Your EmployeeID:<input name="empid" placeholder="EmployeeID"></p>
+<p>Enter Your Name:<input name="name" placeholder="Name"></p>
+<p>Enter Your Department: <input name="department" placeholder="Department"></p>
+<p>Enter Your Mobile Number:<input name="number" placeholder="Mobile Number"></p>
+<p>Enter Your Address:<input name="address" placeholder="Address"></p><br>
+<p>Select Your Gender:
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="other">Other</p>
+Submit Your Data:<button name="submit">Submit</button></p>
+</form>
+</body>
+</html>
